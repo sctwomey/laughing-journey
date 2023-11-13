@@ -1,0 +1,37 @@
+[
+    {
+        "id": "project-three",
+        "name": "Password Generator",
+        "description": "Javascript",
+        "pageUrl": "https://sctwomey.github.io/effective-invention/",
+        "githubUrl": "https://github.com/sctwomey/effective-invention"
+    },
+    {
+        "id": "project-four",
+        "name": "JS Fundamentals Quiz",
+        "description": "Javascript",
+        "pageUrl": "https://sctwomey.github.io/scaling-garbanzo/",
+        "githubUrl": "https://github.com/sctwomey/scaling-garbanzo"
+    },
+    {
+        "id": "project-five",
+        "name": "Work Day Scheduler",
+        "description": "Bootstrap | jQuery | Third-Party API",
+        "pageUrl": "https://sctwomey.github.io/automatic-meme/",
+        "githubUrl": "https://github.com/sctwomey/automatic-meme"
+    },
+    {
+        "id": "project-eleven",
+        "name": "Note Taker Application",
+        "description": "Express.js Notetaker",
+        "pageUrl": "https://secure-beach-92337-cdafda2f258c.herokuapp.com/",
+        "githubUrl": "https://github.com/sctwomey/expert-waffle"
+    },
+    {
+        "id": "project-six",
+        "name": "Weather Dashboard",
+        "description": "Javascript | Third-Pary (Server) API",
+        "pageUrl": "https://sctwomey.github.io/sturdy-happiness/",
+        "githubUrl": "https://github.com/sctwomey/sturdy-happiness"
+    }
+]
