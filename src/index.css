@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #521010;
+  --secondary-color: #929292;
+  --link-color: #e4e4e4;
+  --sans-serif-header: 'Roboto', sans-serif;
+  --sans-serif: 'Nunito', sans-serif;
+  --cursive: 'Dancing Script';
+}
+
+.container-full {
+  min-height: calc(100vh - 190px);
+  background-image: url("./assets/images/background-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.developer-name {
+  font-family: var(--cursive);
+  font-size: 45px;
+  line-height: 1.0;
+  font-weight: bold;
+}
+
+.developer-name a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+h1 {
+  font-family: var(--sans-serif-header);
+  font-size: 35px;
+  margin-bottom: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: #FFF;
+}
+
+h2 {
+  font-family: var(--sans-serif);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+/* These are the Header styles. */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: sticky;
+  background-color: #FFF;
+  border-bottom: 5px solid var(--primary-color);
+  top: 0;
+  z-index: 9999;
+}
+
+header nav {
+  padding-right: 35px;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.nav-link {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navActive {
+  font-weight: bold;
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.header-block {
+  padding: 20px 30px;
+  margin-left: 30px;
+}
+
+.about-me {
+  color: black;
+  font-size: 20px;
+  padding: 50px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+}
+
+.about-me div>* {
+  padding-bottom: 20px;
+}
+
+.about-me div p:first-of-type::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid var(--primary-color);
+  width: 160px;
+}
+
+.about-me div {
+  flex: 0 50%;
+  align-self: center;
+}
+
+.about-me div p:first-of-type {
+  font-size: 35px;
+}
+
+/* These are the 'my-work' styles. */
+.my-work {
+  padding: 0 30px 10px;
+}
+
+.my-work .project-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+
+/* This style is for if the project images don't load. */
+.project-list>li {
+  display: flex;
+  align-items: flex-end;
+  width: 48%;
+  padding-left: 20px;
+  height: 375px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  background-color: var(--secondary-color);
+}
+
+.project-list>li:nth-child(even) {
+  margin-left: 20px;
+}
+
+.project-list>li::before {
+  content: "";
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.project-list>li:hover::before {
+  opacity: 0;
+}
+
+/* These are for the Project images. */
+.project-three::before {
+  background-image: url(./assets/images/password-generator.png);
+  background-size: cover;
+}
+
+.project-four::before {
+  background-image: url(./assets/images/js-quiz.png);
+  background-size: cover;
+}
+
+.project-five::before {
+  background-image: url(./assets/images/workday-scheduler.png);
+  background-size: cover;
+}
+
+.project-six::before {
+  background-image: url(./assets/images/weather-dashboard.png);
+  background-size: cover;
+}
+
+.project-eleven::before {
+  background-image: url(./assets/images/notetaker.png);
+  background-size: cover;
+}
+
+.project-list .project-description {
+  display: block;
+  padding: 20px 20px 220px;
+  position: relative;
+  top: 80px;
+  align-self: flex-start;
+  visibility: hidden;
+}
+
+.project-list li:hover .project-description {
+  visibility: visible;
+}
+
+.project-title {
+  font-size: 30px;
+  text-decoration: none;
+  margin-right: 20px;
+  color: #FFF;
+}
+
+.project-title:hover {
+  color: var(--link-color);
+}
+
+.project-list p {
+  font-size: 18px;
+  padding-top: 10px;
+  color: #FFF;
+}
+
+/* This is for the Resume page styling. */
+.resume {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+.resume p {
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: bold;
+  margin: 30px auto;
+  font-size: 25px;
+}
+
+.resume a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.resume a:hover {
+  color: var(--secondary-color);
+}
+
+.proficiencies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: var(--primary-color);
+  padding-top: 15px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.proficiencies div {
+  flex: 1 1 40%;
+}
+
+.proficiencies div ul {
+  color: var(--primary-color);
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 30px;
+  margin: 0 auto;
+  max-width: 230px;
+}
+
+/* This is for the contact form styling, */
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 100%;
+  max-width: 700px;
+  margin: 40px auto 0;
+}
+
+.contact-form div {
+  display: contents;
+}
+
+.contact-form label {
+  flex: 100%;
+  font-size: 1.125rem;
+  color: var(--primary-color);
+}
+
+.contact-form input {
+  height: 40px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  flex: 100%;
+  margin-bottom: 10px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 2px solid var(--primary-color);
+}
+
+.contact-form textarea {
+  font-family: var(--sans-serif);
+  padding-top: 8px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--link-color);
+}
+
+.contact-form button {
+  flex: 0 50%;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: var(--primary-color);
+  color: #FFF;
+  font-size: 1.10rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: var(--secondary-color);
+}
+
+.error-text {
+  flex: 100%;
+  height: 1.5em;
+  color: red;
+  font-size: 14px;
+}
+
+/* This is for the Footer styling. */
+.footer-section {
+  padding: 10px;
+  background-color: var(--secondary-color);
+  color: #FFF;
+  height: 83.3px;
+}
+
+.footer-links {
+  flex: 1;
+}
+
+.footer-links li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.footer-links li:nth-child(1) {
+  margin: 0 15px 0 0;
+  padding-top: 20px;
+}
+
+.footer-links li:nth-child(2) {
+  margin: 0 0 0 5px;
+  padding-top: 20px;
+}
+
+/* This is for the styling the Icons. */
+.icon {
+  display: inline-block;
+  background: none;
+}
+
+.icon-github {
+  background-image: url(../src/assets/icons/github-logo.png);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  width: 45px;
+  height: 45px;
+}
+
+.icon-github:hover {
+  opacity: 0.5;
+}
+
+.icon-linkedin {
+  background-image: url(../src/assets/icons/linkedin-logo.png);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  width: 45px;
+  height: 45px;
+}
+
+.icon-linkedin:hover {
+  opacity: 0.5;
+}
+
+/* This is for the mobile devices. */
+@media screen and (max-width: 980px) {
+  header {
+    justify-content: center;
+  }
+
+  .project-list>li {
+    flex: 1 0 100%;
+  }
+
+  .project-list>li:nth-child(even) {
+    margin-left: 0;
+  }
+
+  .contact-form {
+    margin: 20px 20px 0;
+  }
+
+  .proficiencies {
+    justify-content: space-evenly;
+  }
+}
