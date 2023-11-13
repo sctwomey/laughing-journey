@@ -105,6 +105,14 @@ header nav ul {
   justify-content: center;
 }
 
+.about-me img {
+  flex: 0 14%;
+  width: 200px;
+  height: 100%;
+  border-radius: 50%;
+  margin-left: -250px;
+}
+
 .about-me div>* {
   padding-bottom: 20px;
 }
@@ -118,7 +126,8 @@ header nav ul {
 
 .about-me div {
   flex: 0 45%;
-  align-self: center;
+  align-self: left;
+  margin-left: 70px;
 }
 
 .about-me div p:first-of-type {
