@@ -227,6 +227,10 @@ header nav ul {
   color: #FFF;
 }
 
+.proj-desc {
+  padding-left: 13px;
+}
+
 /* This is for the Resume page styling. */
 .resume {
   margin-top: 0;
