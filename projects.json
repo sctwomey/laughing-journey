@@ -1,5 +1,12 @@
 [
     {
+        "id": "project-two",
+        "name": "Advanced CSS Portfolio",
+        "description": "HTML | CSS",
+        "pageUrl": "https://sctwomey.github.io/ideal-umbrella/",
+        "githubUrl": "https://github.com/sctwomey/ideal-umbrella"
+    },
+    {
         "id": "project-three",
         "name": "Password Generator",
         "description": "Javascript",
@@ -21,17 +28,17 @@
         "githubUrl": "https://github.com/sctwomey/automatic-meme"
     },
     {
-        "id": "project-eleven",
-        "name": "Note Taker Application",
-        "description": "Express.js Notetaker",
-        "pageUrl": "https://secure-beach-92337-cdafda2f258c.herokuapp.com/",
-        "githubUrl": "https://github.com/sctwomey/expert-waffle"
-    },
-    {
         "id": "project-six",
         "name": "Weather Dashboard",
-        "description": "Javascript | Third-Pary (Server) API",
+        "description": "Javascript | Third-Party (Server) API",
         "pageUrl": "https://sctwomey.github.io/sturdy-happiness/",
         "githubUrl": "https://github.com/sctwomey/sturdy-happiness"
+    },
+    {
+        "id": "project-eleven",
+        "name": "Note Taker Application",
+        "description": "Express Notetaker",
+        "pageUrl": "https://secure-beach-92337-cdafda2f258c.herokuapp.com/",
+        "githubUrl": "https://github.com/sctwomey/expert-waffle"
     }
 ]

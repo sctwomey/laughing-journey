@@ -180,6 +180,11 @@ header nav ul {
 }
 
 /* These are for the Project images. */
+.project-two::before {
+  background-image: url(./assets/images/advanced-css-portfolio.png);
+  background-size: cover;
+}
+
 .project-three::before {
   background-image: url(./assets/images/password-generator.png);
   background-size: cover;
