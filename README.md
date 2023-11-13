@@ -13,7 +13,7 @@ A mock-up of the React Portfolio Website is shown here:
 
 ## Installation
 
-The React Portfolio Application has been deployed via Netlify here: .
+The React Portfolio Application has been deployed via Netlify here: https://subtle-faun-6c7761.netlify.app/.
 
 To view the website, please visit the web address above.
 
