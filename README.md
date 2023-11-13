@@ -7,11 +7,9 @@ When the user loads the portfolio for the first time, the About Me title and sec
 
 When the user enters text into the email address field, the user will receive a notification if the user had entered an invalid email address. When the user is presented with the Resume section, the user will see a link to a downloadable resume and a list of the developer's proficiencies. When the user is presented with the footer, the user will see either text or icon links to the developer's GitHub and LinkedIn profiles, and their profile on a third platform.
 
-A mock-up of the Social Network API is shown here:
+A mock-up of the React Portfolio Website is shown here:
 
-<img src="images/18-nosql-homework-demo-01.gif" alt="NoSQL Database File Image 01" title="NoSQL Database File Screenshot 01">
-
-<img src="images/18-nosql-homework-demo-02.gif" alt="NoSQL Database File Image 01" title="NoSQL Database File Screenshot 02">
+<img src="src/assets/images/20-react-homework-demo-01.gif" alt="React Portfolio File Gif" title="React Portfolio File Screenshot">
 
 ## Installation
 
