@@ -117,7 +117,7 @@ header nav ul {
 }
 
 .about-me div {
-  flex: 0 50%;
+  flex: 0 45%;
   align-self: center;
 }
 
@@ -341,7 +341,7 @@ header nav ul {
   flex: 100%;
   height: 1.5em;
   color: red;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* This is for the Footer styling. */
@@ -349,7 +349,7 @@ header nav ul {
   padding: 10px;
   background-color: var(--secondary-color);
   color: #FFF;
-  height: 83.3px;
+  height: 100px;
 }
 
 .footer-links {
