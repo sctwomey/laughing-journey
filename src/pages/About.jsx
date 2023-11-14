@@ -4,8 +4,8 @@ export default function About() {
     return (
         <section className="container-full" id="about">
             <h1>About Me</h1>
-            <div className="row">
-                <div className="about-me d-flex justify-content-even">
+            <div>
+                <div className="about-me">
                     <img src={avatar} alt="male avatar profile picture" />
                     <div>
                         <p>Welcome!</p>
