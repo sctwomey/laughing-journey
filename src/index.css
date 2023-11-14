@@ -16,7 +16,7 @@
 }
 
 .container-full {
-  min-height: calc(100vh - 190px);
+  min-height: calc(70vh);
   background-image: url("./assets/images/background-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -103,12 +103,14 @@ header nav ul {
   flex-wrap: wrap;
   flex: 1;
   justify-content: center;
+  align-items: center;
+  height: 69vh;
 }
 
 .about-me img {
   flex: 0 14%;
   width: 200px;
-  height: 100%;
+  height: 44%;
   border-radius: 50%;
   margin-left: -250px;
 }
@@ -183,31 +185,37 @@ header nav ul {
 .project-two::before {
   background-image: url(./assets/images/advanced-css-portfolio.png);
   background-size: cover;
+  background-position: center;
 }
 
 .project-three::before {
   background-image: url(./assets/images/password-generator.png);
   background-size: cover;
+  background-position: center;
 }
 
 .project-four::before {
   background-image: url(./assets/images/js-quiz.png);
   background-size: cover;
+  background-position: center;
 }
 
 .project-five::before {
   background-image: url(./assets/images/workday-scheduler.png);
   background-size: cover;
+  background-position: center;
 }
 
 .project-six::before {
   background-image: url(./assets/images/weather-dashboard.png);
   background-size: cover;
+  background-position: center;
 }
 
 .project-eleven::before {
   background-image: url(./assets/images/notetaker.png);
   background-size: cover;
+  background-position: center;
 }
 
 .project-list .project-description {
@@ -298,6 +306,9 @@ header nav ul {
   flex: 100%;
   max-width: 700px;
   margin: 40px auto 0;
+  height: 66vh;
+  padding: 5%;
+  padding-bottom: 10%;
 }
 
 .contact-form div {
