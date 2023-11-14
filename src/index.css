@@ -133,12 +133,12 @@ header nav ul {
   font-size: 35px;
 }
 
-/* These are the 'my-work' styles. */
-.my-work {
+/* These are the 'project-work' styles for the Portfolio page. */
+.project-work {
   padding: 0 30px 10px;
 }
 
-.my-work .project-list {
+.project-work .project-list {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;

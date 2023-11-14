@@ -6,7 +6,7 @@ export default function Portfolio() {
     return (
         <div>
             <h1>Portfolio</h1>
-            <section id="my-work" className="container-full my-work">
+            <section id="project-work" className="container-full project-work">
                 <ul className="project-list">
                     {projects.map((projects) => (
                         <li className={projects.id} key={projects.id}>

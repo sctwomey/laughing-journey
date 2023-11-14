@@ -22,7 +22,6 @@ export default function Resume() {
                             <li>jQuery</li>
                             <li>React</li>
                             <li>Resposive Design</li>
-
                         </ul>
                     </div>
                     <div className="backEnd">
@@ -37,9 +36,6 @@ export default function Resume() {
                             <li>REST API</li>
                             <li>Sequelize</li>
                             <li>Server-Side APIs</li>
-
-
-
                         </ul>
                     </div>
                 </section>
