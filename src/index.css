@@ -379,6 +379,11 @@ header nav ul {
   padding-top: 20px;
 }
 
+.footer-links li:nth-child(3) {
+  margin: 0 0 0 5px;
+  padding-top: 20px;
+}
+
 .footer-links li:nth-child(2) {
   margin: 0 0 0 5px;
   padding-top: 20px;
@@ -388,6 +393,18 @@ header nav ul {
 .icon {
   display: inline-block;
   background: none;
+}
+
+.icon-linkedin {
+  background-image: url(../src/assets/icons/linkedin-logo.png);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  width: 45px;
+  height: 45px;
+}
+
+.icon-linkedin:hover {
+  opacity: 0.5;
 }
 
 .icon-github {
@@ -402,15 +419,15 @@ header nav ul {
   opacity: 0.5;
 }
 
-.icon-linkedin {
-  background-image: url(../src/assets/icons/linkedin-logo.png);
+.icon-stack {
+  background-image: url(../src/assets/icons/stack-logo.png);
   background-repeat: no-repeat;
   background-size: 35px;
   width: 45px;
   height: 45px;
 }
 
-.icon-linkedin:hover {
+.icon-stack:hover {
   opacity: 0.5;
 }
 

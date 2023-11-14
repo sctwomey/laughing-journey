@@ -14,6 +14,11 @@ export default function Footer() {
                             <span className="icon icon-github"></span>
                         </a>
                     </li>
+                    <li>
+                        <a href="https://stackoverflow.com/users/7916145/steve-twomey" target="_blank" rel="noreferrer">
+                            <span className="icon icon-stack"></span>
+                        </a>
+                    </li>
                 </ul>
             </section>
         </footer>
